@@ -52,6 +52,10 @@ footer {
   border-color: rgb(31, 143, 31);
   box-shadow: none;
 }
+.btn-primary-mod:hover {
+  background-color: rgb(31, 143, 31);
+  border-color: whitesmoke;
+}
 
 .imgdownanim:hover {
   -webkit-transform: scale(1.03);

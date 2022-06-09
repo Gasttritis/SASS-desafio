@@ -27,4 +27,8 @@
         border-color: $btncolor;
         box-shadow: none;
     }
+    &:hover{
+        background-color: $btncolor;
+        border-color: whitesmoke;
+    }
 }
