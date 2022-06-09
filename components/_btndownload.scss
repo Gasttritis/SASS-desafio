@@ -1,0 +1,11 @@
+.btndown {
+    color: white;
+    padding: 10px;
+    background-color: $btncolor;
+    border: inset 8px green;
+    text-decoration: none;
+    font-family: 'Minecraftia', sans-serif;
+    &:hover{
+        color: white;
+    }
+}

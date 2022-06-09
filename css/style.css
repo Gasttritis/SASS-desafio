@@ -1,9 +1,8 @@
 @font-face {
-    font-family: 'minecraftfont';
-    src: url('../fonts/minecraftfont/minecraftfont.eot');
-    src: local('minecraftfont'), url('../fonts/minecraftfont/minecraftfont.woff') format('woff'), url('../fonts/minecraftfont/minecraftfont.ttf') format('truetype');
+  font-family: "minecraftfont";
+  src: url("../fonts/minecraftfont/minecraftfont.eot");
+  src: local("minecraftfont"), url("../fonts/minecraftfont/minecraftfont.woff") format("woff"), url("../fonts/minecraftfont/minecraftfont.ttf") format("truetype");
 }
-
 /* 
 font-family: 'minecraftfont';
 font-family: 'Minecraft', sans-serif;
@@ -11,92 +10,101 @@ font-family: 'Minecrafter', sans-serif;
 font-family: 'Minecrafter Alt', sans-serif;
 font-family: 'Minecraftia', sans-serif; 400 700
 */
-
 /* Global */
-
-*{
-    color: rgb(199, 195, 195);
+* {
+  color: rgb(199, 195, 195);
 }
 
 body {
-    font-family: 'Minecraftia', sans-serif;
-    background: url(../img/DirtBackground.jpg);
-    background-attachment: fixed;
-    background-size: contain;
+  font-family: "Minecraftia", sans-serif;
+  background: url(../img/DirtBackground.jpg);
+  background-attachment: fixed;
+  background-size: contain;
 }
 
-
-footer{
-    font-family: 'Minecraft', sans-serif;
+footer {
+  font-family: "Minecraft", sans-serif;
 }
 
 /* index */
-.imgdownanim:hover{
-    -webkit-transform:scale(1.03);
-    transform:scale(1.03);
-    transition: transform 0.3s
+.offcanvas-header-mod {
+  background-color: #212529;
 }
 
-.card-mod{
-    border: none;
-    background-color: rgba(0,0,0, 0.4);
+.offcanvas-body-mod {
+  background-color: #212529;
+}
+.offcanvas-body-mod h4 {
+  padding-bottom: 12px;
+  color: white;
+}
+.offcanvas-body-mod ul li a {
+  text-decoration: none;
+  color: rgb(199, 195, 195);
 }
 
-.col-mod{
-    padding: 24px;
+.btn-primary-mod {
+  background-color: rgb(31, 143, 31);
+  border-color: rgb(31, 143, 31);
+}
+.btn-primary-mod:focus {
+  background-color: rgb(31, 143, 31);
+  border-color: rgb(31, 143, 31);
+  box-shadow: none;
 }
 
-.offcanvas-header-mod{
-    background-color: #212529;
-}
-.offcanvas-body-mod{
-    background-color: #212529;
+.imgdownanim:hover {
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+  transition: transform 0.3s;
 }
 
-.offcanvas-body-mod h4{
-    padding-bottom: 12px;
-    color: white;
+.card-mod {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.4);
 }
-.offcanvas-body-mod ul li a{
-    text-decoration: none;
-    color: rgb(199, 195, 195);
+
+.col-mod {
+  padding: 24px;
 }
 
 /* pages */
+.btndown {
+  color: white;
+  padding: 10px;
+  background-color: rgb(31, 143, 31);
+  border: inset 8px green;
+  text-decoration: none;
+  font-family: "Minecraftia", sans-serif;
+}
+.btndown:hover {
+  color: white;
+}
 
 .pg-text {
-    padding: 20px;
+  padding: 20px;
 }
 
-.pg-text ol{
-    list-style: none;
+.pg-text ol {
+  list-style: none;
 }
 
-.images-textures div img{
-    width: 100%;
-    padding: 5px;
+.images-textures div img {
+  width: 100%;
+  padding: 5px;
 }
 
-.video{
-    margin: 0 auto;
-    background-color: #777;
-    display: block;
-    border-style:none;
-    margin-top: 16px;
+.video {
+  margin: 0 auto;
+  background-color: #777;
+  display: block;
+  border-style: none;
+  margin-top: 16px;
 }
 
-.btndown {
-    color: white;
-    padding: 10px;
-    background-color: rgb(31, 143, 31);
-    border: inset 8px green;
-    text-decoration: none;
-    font-family: 'Minecraftia', sans-serif;
-    
+.list-group-item-mod {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
 }
 
-.list-group-item-mod{
-    background-color: rgba(0,0,0, 0.2);
-    color: white;
-}
-
+/*# sourceMappingURL=style.css.map */

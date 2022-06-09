@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'minecraftfont';
+    src: url('../fonts/minecraftfont/minecraftfont.eot');
+    src: local('minecraftfont'), url('../fonts/minecraftfont/minecraftfont.woff') format('woff'), url('../fonts/minecraftfont/minecraftfont.ttf') format('truetype');
+}
+
+/* 
+font-family: 'minecraftfont';
+font-family: 'Minecraft', sans-serif;
+font-family: 'Minecrafter', sans-serif;
+font-family: 'Minecrafter Alt', sans-serif;
+font-family: 'Minecraftia', sans-serif; 400 700
+*/
+
+/* Global */
+
+@import "../base/variables";
+
+*{
+    color: rgb(199, 195, 195);
+}
+
+body {
+    font-family: 'Minecraftia', sans-serif;
+    background: url(../img/DirtBackground.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+footer{
+    font-family: 'Minecraft', sans-serif;
+}
+
+/* index */
+
+@import "../components/nav";
+@import "../components/cards";
+
+/* pages */
+
+@import "../components/btndownload";
+
+.pg-text {
+    padding: 20px;
+}
+
+.pg-text ol{
+    list-style: none;
+}
+
+.images-textures div img{
+    width: 100%;
+    padding: 5px;
+}
+
+.video{
+    margin: 0 auto;
+    background-color: #777;
+    display: block;
+    border-style:none;
+    margin-top: 16px;
+}
+
+.list-group-item-mod{
+    background-color: rgba(0,0,0, 0.2);
+    color: white;
+}
