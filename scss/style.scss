@@ -14,7 +14,7 @@ font-family: 'Minecraftia', sans-serif; 400 700
 
 /* Global */
 
-@import "../base/variables";
+@import "./base/variables";
 
 *{
     color: rgb(199, 195, 195);
@@ -33,12 +33,12 @@ footer{
 
 /* index */
 
-@import "../components/nav";
-@import "../components/cards";
+@import "./components/nav";
+@import "./components/cards";
 
 /* pages */
 
-@import "../components/btndownload";
+@import "./components/btndownload";
 
 .pg-text {
     padding: 20px;
