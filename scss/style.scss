@@ -15,6 +15,8 @@ font-family: 'Minecraftia', sans-serif; 400 700
 /* Global */
 
 @import "./base/variables";
+@import "./base/maps";
+@import "./base/mixin";
 
 *{
     color: rgb(199, 195, 195);
