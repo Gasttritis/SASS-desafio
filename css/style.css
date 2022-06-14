@@ -11,12 +11,15 @@ font-family: 'Minecrafter Alt', sans-serif;
 font-family: 'Minecraftia', sans-serif; 400 700
 */
 /* Global */
+.btndown, body {
+  font-family: "Minecraftia", sans-serif;
+}
+
 * {
   color: rgb(199, 195, 195);
 }
 
 body {
-  font-family: "Minecraftia", sans-serif;
   background: url(../img/DirtBackground.jpg);
   background-attachment: fixed;
   background-size: contain;
@@ -79,7 +82,6 @@ footer {
   background-color: rgb(31, 143, 31);
   border: inset 8px green;
   text-decoration: none;
-  font-family: "Minecraftia", sans-serif;
 }
 .btndown:hover {
   color: white;

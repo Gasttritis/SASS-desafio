@@ -17,16 +17,16 @@ font-family: 'Minecraftia', sans-serif; 400 700
 @import "./base/variables";
 @import "./base/maps";
 @import "./base/mixin";
+@import "./base/extends";
 
 *{
     color: rgb(199, 195, 195);
 }
 
 body {
-    font-family: 'Minecraftia', sans-serif;
+    @extend %fontMinecraftia;
     background: url(../img/DirtBackground.jpg);
-    background-attachment: fixed;
-    background-size: contain;
+    @include bgprop(fixed, contain);
 }
 
 footer{

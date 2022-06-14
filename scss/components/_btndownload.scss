@@ -4,7 +4,7 @@
     background-color: $btncolor;
     border: inset 8px green;
     text-decoration: none;
-    font-family: 'Minecraftia', sans-serif;
+    @extend %fontMinecraftia;
     &:hover{
         color: white;
     }
