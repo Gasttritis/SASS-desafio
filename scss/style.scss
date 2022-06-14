@@ -47,13 +47,18 @@ footer{
 }
 
 .pg-text ol{
-    list-style: none;
+    list-style: map-get($list , stylenone );
 }
 
-.images-textures div img{
-    width: 100%;
-    padding: 5px;
+.images-textures{
+    div{
+        img{
+            width: 100%;
+            padding: 5px; 
+        }
+    }
 }
+
 
 .video{
     margin: 0 auto;
@@ -64,6 +69,6 @@ footer{
 }
 
 .list-group-item-mod{
-    background-color: rgba(0,0,0, 0.2);
-    color: white;
+    background-color: map-get($list, bgcolor);
+    color: map-get($list, color);
 }
