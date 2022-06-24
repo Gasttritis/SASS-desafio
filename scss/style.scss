@@ -19,6 +19,10 @@ font-family: 'Minecraftia', sans-serif; 400 700
 @import "./base/mixin";
 @import "./base/extends";
 
+.minecraftFont {
+	font-family: 'minecraftfont' !important;
+}
+
 *{
     color: rgb(199, 195, 195);
 }
